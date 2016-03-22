@@ -1,12 +1,8 @@
 # Musysic-MU.MIDI4c
 Adding MIDI mapping for Musysic 4 deck mixer 
-<?xml version="1.0" encoding="utf-8"?>
-    <MixxxMIDIPreset shcemaVersion="1" MixxxVersion="1.11.0+">
-	<info>
-		<name>Musysic MIDI Preset for Mixxx</name>
-		<author> Mark Ramirez aka DJ Strainjone</author>
-		<description>This is a complete sample js MIDI preset for the 4 deck Musysic mixer to replace the factory YouJun ASIO v2.22.0 driver</description>
-		<wiki>no URL to Mixxx wiki at the moment</wiki>
-		<forums>no URL to Mixxx discussion forums for this controller mapping</forums>
-</info>
-<contoller id="Musysic Mu.Midi4c">
+also known as #Musysic MiDi6 unit
+     So far the developer has supplied me a generic nonfunctioning ASIO driver that is not recognised with any DJ software platform even VirtualDJ that it was supplied with. It has solid construction spec as followed:
+     5V S/N self powered; >75dB frequency ratio; 20Hz-20KHz +-3dB response; <0.1% THD.
+     Dimension(WxDxH) 624x306x86 mm
+My plan is to write a replacement MIDI.script before my manufactures warrenty voids Nov2016. If i succeed i plan to be the first to write a functioning overview.
+then i will party hard, hashtag turnup
